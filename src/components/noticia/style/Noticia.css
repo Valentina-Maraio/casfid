@@ -1,0 +1,9 @@
+.noticias_box {
+  margin: 20px;
+  text-align: center;
+}
+
+.button{
+  display: inline-block;
+  vertical-align: middle;
+}

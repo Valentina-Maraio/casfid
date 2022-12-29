@@ -1,0 +1,45 @@
+.home_banner {
+  width: auto;
+  height: 300px;
+}
+
+.home_box{
+  width: auto;
+  height: 100px;
+  background-color: rgb(45, 44, 44);
+  color: white;
+  position:relative;
+}
+
+.logo_home{
+  border: 10px solid rgb(45, 44, 44);
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  background-color: rgb(23, 166, 23);
+  position:absolute;
+}
+
+.logo_box{
+  display: flex;
+  justify-content: center;
+}
+
+.logo{
+  margin-top: 10px;
+  width: auto;
+  height: auto;
+}
+
+.evento{
+  padding: 50px;
+  background-color: rgb(23, 166, 23);
+  color: white;
+  font-size: large;
+}
+.noticias{
+  width: auto;
+  height: 300px;
+}
