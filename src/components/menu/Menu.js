@@ -9,7 +9,7 @@ const Menu = () => {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand>
+          <Navbar.Brand href="/">
             <img
               alt="logo"
               src={casfid}
