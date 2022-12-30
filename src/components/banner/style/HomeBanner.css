@@ -1,6 +1,6 @@
 .home_banner {
   width: auto;
-  height: 300px;
+  height: 400px;
 }
 
 .home_box{
@@ -9,6 +9,7 @@
   background-color: rgb(45, 44, 44);
   color: white;
   position:relative;
+  display: block;
 }
 
 .logo_home{
@@ -16,8 +17,8 @@
   text-align: center;
   display: inline-block;
   border-radius: 50%;
-  width: 90px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
   background-color: rgb(23, 166, 23);
   position:absolute;
 }
@@ -25,6 +26,7 @@
 .logo_box{
   display: flex;
   justify-content: center;
+  align-self: center;
 }
 
 .logo{
@@ -37,9 +39,9 @@
   padding: 50px;
   background-color: rgb(23, 166, 23);
   color: white;
-  font-size: large;
 }
+
 .noticias{
   width: auto;
-  height: 300px;
+  height: 200px;
 }

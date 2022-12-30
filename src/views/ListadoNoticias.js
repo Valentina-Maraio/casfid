@@ -1,8 +1,12 @@
 import React from 'react'
+import Menu from '../components/menu/Menu'
 
 const ListadoNoticias = () => {
   return (
-    <div>ListadoNoticias</div>
+    <>
+    <Menu/>
+    <h3>Listado Noticias</h3>
+    </>
   )
 }
 
