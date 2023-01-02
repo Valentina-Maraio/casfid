@@ -1,10 +1,11 @@
-import React, { useContext, useState } from "react";
-import { AllNewsContext } from "../../context/AllContext";
+import React, { useState } from "react";
+//import { AllNewsContext } from "../../context/AllContext";
 import { Grid, Card, Col, Row, Text, Input } from "@nextui-org/react";
 import NewsInfo from "../news_info/NewsInfo";
+import noticias from '../../data/noticias.json'
 
 const CardNews = ({ título }) => {
-  const [allNews] = useContext(AllNewsContext);
+  //const [allNews] = useContext(AllNewsContext);
 
   const [visible, setVisible] = useState(false);
 
@@ -33,7 +34,7 @@ const CardNews = ({ título }) => {
         </Col>
       </Row>
       <Grid.Container gap={2} justify="flex-start">
-        {allNews.filter((item) => {
+        {noticias?.noticias?.filter((item) => {
           return search.toLowerCase() === ""
           ? item
           : item.título.toLowerCase().includes(search) ||
